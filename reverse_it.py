@@ -13,3 +13,10 @@ def reverse_it(data):
 data=[5,6,7,8,9,12,3,4,66,2,34,12]
 reverse_array=reverse_it(data)
 print(reverse_array)
+
+##This Method can also be used
+
+data=[5,6,7,8,9,12,3,4,66,2,34,12]
+reverse_array=data[::-1]
+print(reverse_array)
+
